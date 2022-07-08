@@ -1,1 +1,1 @@
-# whole-mouse-brain-soma-detection-WMBSD-dataset
+# Whole Mouse Brain Soma Detection (WMBSD) Dataset 
