@@ -4,9 +4,9 @@
 --------------
 &emsp; To facilitate the detection of soma, we have specially built a **Whole Mouse Brain Soma Detection  (WMBSD) dataset** which contains **798** representative image blocks extracted from several whole mouse brain images with ID 17302, 17545, and 18455. These images contain 1348 somas with total ~ 5.2x10 <sup>7</sup> voxels. Each image stack in this dataset has one or multiple neurons with a size of 256 × 256 ×256 voxels in spatial resolution of 2 × 2 × 2 μm/voxel. In the WBMSD dataset, each image contains one or more somas. All images in this dataset were manually annotated and cross-validated by three experienced experts to obtain the reference (gold standard).
 
-![[Pasted image 20220714215537.png]]
-！[Alt text](E:\LiuQinhao\Note\LQH\PNG\Pasted image 20220714215537)
-Fig. 1. Example of image patches in the WMBSD dataset
+![](https://github.com/liuqinghao2018/WholeMouseBrainSomaDetectionDataset/blob/main/Pasted%20image%2020220714215537.png)  
+<div align='center' >Fig. 1. Example of image patches in the WMBSD dataset</div>
+
 
 ## Data Sources
 --------------
@@ -33,4 +33,13 @@ WMBSD/
 
 ## Citation
 --------------
-&emsp; if you found this dataset useful for your research, please consider citing our work:
+&emsp; If you found this dataset useful for your research, please consider citing our work:
+```
+@article{wei20223d,
+  title={3D Soma Detection in Large-Scale Whole Brain Images via a Two-Stage Neural Network},
+  author={Wei, Xiaodan and Liu, Qinghao and Liu, Min and Wang, Yaonan and Meijering, Erik},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2022},
+  publisher={IEEE}
+}
+```
