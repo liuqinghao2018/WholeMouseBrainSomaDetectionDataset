@@ -5,6 +5,7 @@
 &emsp; To facilitate the detection of soma, we have specially built a **Whole Mouse Brain Soma Detection  (WMBSD) dataset** which contains **798** representative image blocks extracted from several whole mouse brain images with ID 17302, 17545, and 18455. These images contain 1348 somas with total ~ 5.2x10 <sup>7</sup> voxels. Each image stack in this dataset has one or multiple neurons with a size of 256 × 256 ×256 voxels in spatial resolution of 2 × 2 × 2 μm/voxel. In the WBMSD dataset, each image contains one or more somas. All images in this dataset were manually annotated and cross-validated by three experienced experts to obtain the reference (gold standard).
 
 ![[Pasted image 20220714215537.png]]
+！[Alt text](E:\LiuQinhao\Note\LQH\PNG\Pasted image 20220714215537)
 Fig. 1. Example of image patches in the WMBSD dataset
 
 ## Data Sources
@@ -17,14 +18,14 @@ Fig. 1. Example of image patches in the WMBSD dataset
 &emsp; You can get the WMBSD dataset through this [link](https://drive.google.com/drive/folders/1_bl_nuiPoXsPaolsxjwhzqXAJCIzOfaX?usp=sharing). The dataset is organized according to the following folder structure:  
 
 WMBSD/  
-├── images
-    ├── 025480_187960_084220.tif  
-    ├── 025480_248920_059520.tif
-    └── ...  
-├── label
-    ├── 025480_187960_084220.tif.marker
-    ├── 025480_248920_059520.tif.marker
-    └── ...  
+├── images  
+&emsp; ├── 025480_187960_084220.tif    
+&emsp; ├── 025480_248920_059520.tif  
+&emsp; └── ...    
+├── label  
+&emsp; ├── 025480_187960_084220.tif.marker  
+&emsp; ├── 025480_248920_059520.tif.marker  
+&emsp; └── ...    
 
 &emsp;All image blocks are collected in the _images_ folder. Assuming that the coordinates of the center point of the image block in the whole brain are _(x, y, z)_, the convention for the name of each image is _x_y_z.nii.gz_ . The soma coordinate label file is placed in the _label_ folder, and the coordinate information of soma in each image block is stored in a corresponding _.tif.marker_ file, where the coordinate label of soma is relative to the coordinates of the center point of the image block .
 
